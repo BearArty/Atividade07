@@ -1,0 +1,132 @@
+* { /* CSS Reset */
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(137, 44, 44);
+    background-attachment: fixed;
+    background-size: 750px 1500px;
+}
+
+header { 
+    width: 960px;
+    height: 90px;
+    background-image: url(img/lo.png);
+    background-size: 960px 90px;
+    background-position: center;
+    align-items: center;
+    background-color: #8d4fd9;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(30, 13, 68, 0.3) 4px 4px 3px;
+    padding-top: 10px;
+}
+
+#nome {
+    text-transform: capitalize;
+}
+
+h2 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #eee;
+}
+#nome{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+}
+h3{
+    margin-top: 5px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+}
+
+main {
+    width: 960px;
+    height: 500px;
+    margin-top: 10px;
+} 
+
+#info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 960px;
+    height: 100px;
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: rgba(30, 13, 68, 0.3) 4px 4px 3px;
+    margin-top: 3px;
+}
+
+#dados {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    height: 400px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    box-shadow: rgba(30, 13, 68, 0.3) 4px 4px 3px;
+    margin-top: 3px;
+}
+
+#icone {
+    background-color: rgba(14, 7, 31, 0.3);
+    border-radius: 5px;
+}
+
+p {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+input[type=text] {
+    background-color: #6d6d6d;
+    border: 0;
+    border-bottom: 2px solid #222;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-bottom: 2px solid #613181;
+}
+
+input[type=submit] {
+    padding: 5px 10px;
+    background-color: #272727;
+    border-radius: 10px;
+    color: #eee;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+input[type=submit]:hover {
+    background-color: #000;
+    transition: 0.7s;
+}
+
+#surp {
+    margin-bottom: 5px;
+}

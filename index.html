@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header da página -->
+    <header>
+        <h2>Web Pokedex</h2>
+    </header>
+
+    <!-- conteúdo principal da página -->
+    <main>
+
+        <!-- "bloco" onde é realizada a busca -->
+        <div id="info">
+            <h3>Informações de Pokemons</h4>
+            <form action="#" method="post" name="poke" id="poke">
+                <label> Informe o nome ou o id de um Pokemon: </label>
+
+                <!-- local onde é inserido o nome/numero do pokemon -->
+                <input type="text" id="pokemon" name="pokemon" required/>
+                <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+            </form>
+
+            <!-- "botão" que aleatoriza o pokemon -->
+            <form action="#" method="post" name="surp" id="surp">
+                <input type="submit" id="surp" name="surp" value="Surpreenda-se"/>
+            </form>
+        </div>
+        <br>
+        <!-- dados do pokemon -->
+        <div id="dados" class="oculto">
+            <h2 id="nome"></h2>
+            <p id="icone"></p>
+            <p id="descricao"></p>
+            <p id="numero"></p>
+            <p id="tipos"></p>
+            <p id="peso"></p>
+            <p id="altura"></p>
+        </div>
+
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
